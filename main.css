@@ -36,3 +36,30 @@ body {
 .quote, .author {
     margin-top: -10px;
 }
+
+@media (max-width: 600px) {
+    .quote {
+        margin-top: -50px;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 0.5rem; 
+      }
+      .author {
+       font-family: 'Crimson Text', serif;
+       font-size: 1rem;
+       font-style: italic;
+}
+}
+
+@media (max-width: 768px) {
+    .quote {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.2rem; 
+      }
+}
+
+@media (max-width: 992px) {
+    .quote {
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1.3rem; 
+      }
+}
